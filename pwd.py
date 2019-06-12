@@ -1,7 +1,7 @@
-pwd = input('please input your password: ')
 ans = 'a123456'
 i = 1
 while i < 4:
+    pwd = input('please input your password: ')
     if pwd != ans:
         if i == 3:
             print('sorry and goodbye')
@@ -11,5 +11,4 @@ while i < 4:
     else:
         print('success')
         break
-    pwd = input('please input your password: ')
     i = i + 1
